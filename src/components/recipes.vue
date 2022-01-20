@@ -1,5 +1,5 @@
 <template>
-  <div class="text-gray-600 font-body">
+  <div class="text-gray-600 font-body mt-2">
     <div class="grid md:grid-cols-3">
       <!--content wrapper-->
       <div class="md:col-span-1 md:flex md:justify-end">
@@ -19,8 +19,8 @@
           </div>
           <ul class="text-sm mt-6 hidden md:block" id="menu">
             <li class="text-gray-700 font-bold mb-2">
-              <a
-                href="#"
+              <router-link
+                to="/"
                 class="px-4 flex justify-end border-r-4 border-primary"
               >
                 <span>Home</span>
@@ -30,10 +30,10 @@
                   width="20px"
                   height="20px"
                 />
-              </a>
+              </router-link>
             </li>
             <li class="mb-2">
-              <a href="#" class="px-4 flex justify-end border-r-4 border-white">
+              <router-link to= "/about" class="px-4 flex justify-end border-r-4 border-white">
                 <span>About</span>
                 <img
                   class="ml-2"
@@ -41,7 +41,7 @@
                   width="20px"
                   height="20px"
                 />
-              </a>
+              </router-link>
             </li>
             <li>
               <a href="#" class="px-4 flex justify-end border-r-4 border-white">

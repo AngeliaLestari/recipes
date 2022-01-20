@@ -7,6 +7,7 @@ import '@/assets/css/tailwind.css'
 import VueTailwind from 'vue-tailwind'
 import TInput from 'vue-tailwind/dist/t-input'
 import TButton from 'vue-tailwind/dist/t-button'
+import VueCarousel from 'vue-carousel'
 
 const settings = {
   'angel-input': {
@@ -26,6 +27,7 @@ const settings = {
 }
 
 Vue.use(VueTailwind, settings)
+Vue.use(VueCarousel)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
